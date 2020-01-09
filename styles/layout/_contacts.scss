@@ -1,0 +1,15 @@
+.contacts-left{
+    width: 120px;
+    background-color: $color-contacts;
+    text-align: center;
+
+    @media(max-width: 1200px){
+        display: none;
+    }
+}
+
+.contact{
+    padding: 17.5px;
+    font-size: 14px;
+}
+

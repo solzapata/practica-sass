@@ -1,0 +1,16 @@
+.contact-right{
+    width: 420px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    text-align: center;
+    height: 564px;
+    border-left: solid .5px $color-contacts;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    @media(max-width: 1200px){
+        display: none;
+    }
+}

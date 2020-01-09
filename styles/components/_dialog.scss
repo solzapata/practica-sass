@@ -1,0 +1,17 @@
+.sent{
+    background-color: $color-sent;
+    width: 400px;
+    padding: 10px;    
+    border-radius: 20px 0px 20px 20px;
+    font-size: 15px;
+}
+
+.recieved{
+    width: 400px;
+    background-color: $color-recieved;
+    color: $color-background;
+    padding: 10px;
+    border-radius: 20px 20px 20px 0px;
+    font-size: 15px;
+}
+
