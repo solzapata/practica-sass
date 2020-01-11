@@ -9,11 +9,12 @@ main{
     @media(max-width: 1200px){
         width: 100%;
     }
-}
-
-.box{
+    
+    .box{
     display: flex;
     justify-content: center;
+    position: relative;
+    }
 }
 
 .user-recieved{
@@ -22,9 +23,6 @@ main{
     bottom: 0px;
 }
 
-.box{
-    position: relative;
-}
 
 .user-sent{
     position: absolute;

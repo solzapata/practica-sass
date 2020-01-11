@@ -18,28 +18,47 @@ img {
   height: 40px;
   border-radius: 50%; }
 
-.talking {
-  background-color: #fdfdfe; }
+.contact-right img {
+  width: 150px;
+  height: 150px; }
 
-.header-icon {
-  padding: 0px 10px; }
+input {
+  border-radius: 15px;
+  border: solid 0.5px #a19395;
+  font-size: 12px;
+  height: 20px;
+  padding-left: 25px;
+  width: 120px; }
+
+.search-box {
+  position: relative; }
+  .search-box .fa-search {
+    position: absolute;
+    left: 7px;
+    bottom: 8px;
+    font-size: 10px; }
+
+.typing {
+  height: 23px;
+  width: 300px; }
 
 .call-icons {
-  font-size: 40px;
   display: flex;
   justify-content: space-evenly; }
 
 .fa-phone {
   color: #fdfdfe;
   position: absolute;
-  left: 17px;
-  top: 17px; }
+  left: 10px;
+  top: 10px;
+  font-size: 34px; }
 
 .fa-phone-slash {
   color: #fdfdfe;
   position: absolute;
-  left: 17px;
-  top: 17px; }
+  left: 10px;
+  top: 10px;
+  font-size: 32px; }
 
 .calling {
   width: 60px;
@@ -57,30 +76,8 @@ img {
   padding: 10px;
   position: relative; }
 
-.contact-right img {
-  width: 150px;
-  height: 150px; }
-
-input {
-  border-radius: 15px;
-  border: solid 0.5px #a19395;
-  font-size: 12px;
-  height: 20px;
-  padding-left: 25px;
-  width: 120px; }
-
-.fa-search {
-  position: absolute;
-  left: 7px;
-  bottom: 8px;
-  font-size: 10px; }
-
-.search-box {
-  position: relative; }
-
-.typing {
-  height: 23px;
-  width: 300px; }
+.contact:nth-child(3) {
+  background-color: #fdfdfe; }
 
 .contacts-left {
   width: 120px;
@@ -89,10 +86,9 @@ input {
   @media (max-width: 1200px) {
     .contacts-left {
       display: none; } }
-
-.contact {
-  padding: 17.5px;
-  font-size: 14px; }
+  .contacts-left .contact {
+    padding: 17.5px;
+    font-size: 14px; }
 
 header {
   color: #a19395;
@@ -106,6 +102,8 @@ header {
   @media (max-width: 1200px) {
     header {
       position: fixed; } }
+  header .header-icon {
+    padding: 0px 10px; }
 
 main {
   width: 827px;
@@ -117,18 +115,15 @@ main {
   @media (max-width: 1200px) {
     main {
       width: 100%; } }
-
-.box {
-  display: flex;
-  justify-content: center; }
+  main .box {
+    display: flex;
+    justify-content: center;
+    position: relative; }
 
 .user-recieved {
   position: absolute;
   left: 135px;
   bottom: 0px; }
-
-.box {
-  position: relative; }
 
 .user-sent {
   position: absolute;

@@ -7,13 +7,12 @@ input{
     width: 120px;
 }
 
-.fa-search{
-    position: absolute;
-    left: 7px;
-    bottom: 8px;
-    font-size: 10px;
-}
-
 .search-box{
     position: relative;
+    .fa-search{
+        position: absolute;
+        left: 7px;
+        bottom: 8px;
+        font-size: 10px;
+    }
 }

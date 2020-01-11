@@ -1,0 +1,38 @@
+.call-icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fa-phone{
+    color: $color-background;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 34px;
+}
+
+.fa-phone-slash{
+    color: $color-background;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 32px;
+}
+
+.calling{
+    width: 60px;
+    height: 60px;
+    background-color: green;
+    border-radius: 50%;
+    padding: 10px;
+    position: relative;
+}
+
+.cancelling{
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border-radius: 50%;
+    padding: 10px;    
+    position: relative;
+}
